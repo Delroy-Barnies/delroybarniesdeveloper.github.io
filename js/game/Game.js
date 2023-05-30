@@ -2,6 +2,9 @@ import EnemyController from "./EnemyController.js";
 import Player from "./Player.js";
 import bulletController from "./BulletController.js";
 
+document.addEventListener('DOMContentLoaded', domloaded, false);
+function domloaded() {
+
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
 
@@ -104,4 +107,5 @@ function checkStartGame() {
 
     document.addEventListener("keydown", enter);
 
+}
 }
