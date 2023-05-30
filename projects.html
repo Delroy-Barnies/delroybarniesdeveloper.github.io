@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projects</title>
+
+    <!-- styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=PT+Serif:wght@400;700&family=Roboto:wght@400;500;700&family=Saira+Condensed:wght@400;700&family=Dancing+Script:wght@400;700&family=Red+Rose:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/projects/general.css" />
+    <link rel="stylesheet" href="css/projects/header.css" />
+    <link rel="stylesheet" href="css/projects/body.css" />
+    <link rel="stylesheet" href="css/projects/slider.css" />
+    <link rel="stylesheet" href="css/projects/glide.core.css" />
+    <link rel="stylesheet" href="css/projects/glide.theme.css" />
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Home</a>
+    </header>
+
+    <div class="wrapper">
+        <div class="heading">
+            <h1>SELECT YOUR PROJECT</h1>
+            <p>Here you can pick a project you want to review and you will be
+                taken to that project in Github!</p>
+        </div>
+
+
+        <div class="container">
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide img0"><a
+                                href="https://github.com/DelroyBarnies99/DelroyBarnies-Projects/tree/master/emailsender"><img
+                                    src="images/projects/QCS_webpage.jpg"></a>
+                            <h2>Quality Cleaning Services</h2>
+                            <p>I created this ecommerce web page for a small business known as the quality cleaning
+                                services I used Html5 and CSS3 for the front end and implemented JavaScript for
+                                pause/playing the background video. Also used spring boot for
+                                the contact us section in which the user can send an email to the service provider
+                                through the webpage.</p>
+                        </li>
+                        <li class="glide__slide img1"><a
+                                href="https://github.com/DelroyBarnies99/DelroyBarnies-Projects/tree/master/loginAndRegistrationFinal"><img
+                                    src="images/projects/login_and_registration_final.jpg"></a>
+                            <h2>Login And Registration</h2>
+                            <p>This project uses Spring boot and Spring security to allow users to login and register
+                                and stores user information in a mysql database. All passwords stored in the database
+                                are encrypted and users are provided roles for either user or admin. All web pages where
+                                designed by me in HTML and CSS for styling. I used Thymeleaf used for templating web
+                                pages and providing form field validations.
+                            </p>
+                        </li>
+                        <li class="glide__slide img2"><a
+                                href="https://github.com/DelroyBarnies99/DelroyBarnies-Projects/tree/master/employee-management-webapp-1"><img
+                                    src="images/projects/employee_management_system.jpg"></a>
+                            <h2>Employee Management System</h2>
+                            <p>I built this employee management webapp from the ground up in spring tool suite using
+                                spring boot for my backend and html5 and css3 for the frontend. You can register users,
+                                sign in and manage employees from a mysql database!</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"><img src="icons/copyright-svgrepo-com.svg">
+        <p>2023 designed and built by Delroy Barnies</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+        var glide = new Glide('.glide', {
+            gap: 30,
+            type: 'carousel',
+            perView: 3,
+            focusAt: 'center',
+            breakpoints: {
+                1024: {
+                    perView: 2
+                },
+                600: {
+                    perView: 1
+                }
+            },
+        })
+
+        glide.mount();
+    </script>
+
+</body>
+
+</html>

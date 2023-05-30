@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    justify-content: right;
+    height: 70px;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: bottom;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+
+header ul li {
+    margin: 0 .4rem;
+}
+
+header ul li a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: white;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
