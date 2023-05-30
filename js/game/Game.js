@@ -12,14 +12,14 @@ canvas.width = 600;
 canvas.height = 600;
 
 const background = new Image();
-background.src = "images/space.png";
+background.src = "../../images/space.png";
 
 const playerBulletController = new bulletController(canvas, 10, "red", true);
 const enemyBulletController = new bulletController(canvas, 4, "white", false);
 const enemyController = new EnemyController(canvas, enemyBulletController, playerBulletController);
 const player = new Player(canvas, 3, playerBulletController);
 
-var music = new Audio("sounds/dnx-116856-[AudioTrimmer.com].mp3", 20, true);
+var music = new Audio("../../sounds/dnx-116856-[AudioTrimmer.com].mp3", 20, true);
 
 let isGameOver = false;
 let didWin = false;
