@@ -84,7 +84,7 @@ function domloaded() {
             ctx.font = "bold 60px Ariel";
             ctx.fillText(title, canvas.width / 12, canvas.height / 2.5);
 
-            let instructions = "press enter to start";
+            let instructions = "press enter to start, b key to fire";
 
             ctx.fillStyle = "white";
             ctx.font = "30px Ariel";
