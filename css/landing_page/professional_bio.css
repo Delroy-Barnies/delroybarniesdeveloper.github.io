@@ -116,6 +116,8 @@
 	color: transparent;
 
 	transition: all ease-in-out 400ms;
+	margin-right: 80px;
+	margin-left: 80px;
 }
 
 .hello-text-active{
