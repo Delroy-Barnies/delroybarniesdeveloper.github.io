@@ -1,8 +1,13 @@
 header{
     display: flex;
     justify-content: right;
-    height: 70px;
+    height: 58px;
     align-items: center;
+    position: fixed;
+
+    background-color: #060535;
+    width: 100%;
+    z-index: 200;
 }
 
 header ul {
