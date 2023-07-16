@@ -28,7 +28,7 @@ function domloaded() {
     function game() {
         checkStartGame();
         checkGameOver();
-        ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
+        ctx.drawImage(background, 0, 0);
         displayGameOver();
         displayStartGame();
         if (started) {
