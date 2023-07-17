@@ -37,7 +37,7 @@ header ul li a:hover {
 @media(max-width:540px) {
 
     header ul{
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin-right: 0;
     }
 
