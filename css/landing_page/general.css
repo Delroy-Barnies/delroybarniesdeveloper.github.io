@@ -12,3 +12,9 @@ body{
     align-content: center;
     text-align: center;
 }
+
+@media (max-width : 540px) {
+    body {
+      width: 100%;
+    }
+}
