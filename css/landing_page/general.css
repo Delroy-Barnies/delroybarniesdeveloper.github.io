@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #060535;
+    height: 6300px;
+    overflow-x: hidden;
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    text-align: center;
+}
