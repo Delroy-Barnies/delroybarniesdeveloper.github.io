@@ -8,7 +8,7 @@
     transition: transform 250ms ease-in-out;
     background: linear-gradient(180deg, #46c2fc 0%, #3F5EFB 100%);
 
-    z-index: 10;
+    z-index: 12;
 }
 .sidebarMenuInner{
     margin:0;
@@ -50,7 +50,7 @@ input[type=checkbox] {
     box-sizing: border-box;
     cursor: pointer;
     position: fixed;
-    z-index: 10;
+    z-index: 12;
     height: 100%;
     width: 100%;
     top: 22px;
